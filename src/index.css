@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Light";
+  src: url("/fonts/light.ttf");
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url("/fonts/extrabold.ttf");
+}
+  @font-face {
+  font-family: "Regular";
+  src: url("/fonts/regular.ttf");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url("/fonts/medium.ttf");
+}
+
+@font-face {
+  font-family: "SemiBold";
+  src: url("/fonts/semibold.ttf");
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("/fonts/bold.ttf");
+}
+
+@theme {
+  --color-primary: #FFD9C0;
+  --color-secondary: #CC692B;
+  --color-third: #462E1F;
+  --color-border: #402A1D;
+  --color-backgroundsecondary: #5C3A26;
+  --color-backgroundthird: #6B452E;
+  --font-regular: "Regular";
+  --font-light: "Light";
+  --font-medium: "Medium";
+  --font-semibold: "SemiBold";
+  --font-bold: "Bold";
+  --font-extrabold: "ExtraBold";
+}
+
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #FFD9C0;
+  background-color: #251810;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
