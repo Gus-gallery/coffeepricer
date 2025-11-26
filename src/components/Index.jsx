@@ -30,7 +30,7 @@ export default function Index() {
             <p>
                 <strong>{coffee.pricePerKg.toFixed(2)} $ per kg </strong>
             </p>
-            <p className="text-xs font-regular mt-2">As of: {new Date(coffee.date).toLocaleDateString()}</p>
+            <p className="text-xs font-regular mt-4 text-third">As of: {new Date(coffee.date).toLocaleDateString()}</p>
         </div>
     </div>
   )
