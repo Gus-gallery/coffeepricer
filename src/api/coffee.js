@@ -23,7 +23,7 @@ export async function fetchCoffeePrice() {
 
     return {
         date: latest.date,
-        pricePerKg: parseFloat(latest.value) * 2.20462 
+        pricePerKg: parseFloat(latest.value) * 2.20462 / 100 //convert from cents per pound to dollars per kg
     }
   }
   
