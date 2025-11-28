@@ -16,12 +16,12 @@ export default function Coffee() {
     <Canvas
       id="canvas"
       className="w-1/2 h-full relative z-40"
-      camera={{ position: [0, 2, 5], fov: 50 }}
+      camera={{ position: [0, 4, 8], fov: 45 }}
     >
         <OrbitControls enableZoom={false} enableDamping={true} dampingFactor={0.25}/>
       <ambientLight intensity={0.8} />
       <directionalLight position={[5, 5, 5]} intensity={1} />
-      <RotatingCup scale={25} position={[0, 0, 0]} />
+      <RotatingCup scale={35} position={[0, 0, 0]} />
     </Canvas>
   );
 }
