@@ -16,7 +16,7 @@ export async function fetchCoffeePrice() {
     const data = await res.json()
 
     if (!data.data || !Array.isArray(data.data) || data.data.length === 0) {
-        throw new Error("No coffee price data available");
+        throw new Error("No coffee price data available \n(Too many API requests. Try again tomorrow!)");
       }
 
     const latest = data.data[0];
