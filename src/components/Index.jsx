@@ -25,7 +25,7 @@ export default function Index() {
     if (error) return <p className="text-md font-regular text-red-500">Error: {error}</p>;
 
   return (
-    <div className="bg-backgroundthird border-2 border-border p-4 rounded-md font-extrabold text-4xl w-full mt-4">
+    <div className="bg-backgroundthird border border-stone-900 p-4 rounded-xs font-extrabold text-4xl w-full mt-4">
         <div className="flex flex-col items-center justify-center">
             <p>
                 <strong>{coffee.pricePerKg.toFixed(2)} $ per kg </strong>

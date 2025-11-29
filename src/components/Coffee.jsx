@@ -15,7 +15,7 @@ export default function Coffee() {
   return (
     <Canvas
       id="canvas"
-      className="w-1/2 h-full relative z-40"
+      className="w-full h-full relative z-40"
       camera={{ position: [0, 4, 8], fov: 45 }}
     >
         <OrbitControls enableZoom={false} enableDamping={true} dampingFactor={0.25}/>
